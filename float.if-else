@@ -1,0 +1,30 @@
+#include <iostream>
+#include <stdlib.h>
+
+using namespace std;
+
+float nota1;
+float nota2;
+
+
+int main(){
+    cout << "Primeira nota: " << endl;
+cin >> nota1;
+
+cout << "Segunda nota: " << endl;
+cin >> nota2;
+
+system("cls");
+
+float média(nota1/2 + nota2/2);
+
+cout << média << endl;
+
+if(média >=10){
+    cout << "Aprovado" << endl;
+}else{
+    cout << "Reprovado" << endl;
+}
+
+    return 0;
+}
