@@ -1,0 +1,52 @@
+#include <iostream>
+
+using namespace std;
+
+
+
+class carro
+
+
+{
+
+public:
+    string make;
+    string modelo;
+    int ano;
+    string cor;
+
+    void acceleration(){
+        cout << "acabou a gasolina" << endl;
+    
+    }
+
+    void travao(){
+        cout << "travas te o carro" << endl;
+
+    }
+    
+    
+};
+
+int main() {
+
+carro carro1;
+
+
+    carro1.make = "Ferrari";
+    carro1.modelo = "458 Italia";
+    carro1.ano = 2012;
+    carro1.cor = "rosso corsa";
+
+
+    cout << carro1.make << endl;
+    cout << carro1.modelo << endl;
+    cout << carro1.ano << endl;
+    cout << carro1.cor << endl;
+
+    carro1.acceleration();
+    carro1.travao();
+
+    return 0;
+
+}
